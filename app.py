@@ -136,7 +136,7 @@ if (y1 is not None or y2 is not None) and error_message is None:
         ax.set_ylim([y_center - y_range * y_scale / 2, y_center + y_range * y_scale / 2])
 
     # 添加标题和标签
-    ax.set_title('函数图像', fontsize=16)
+    ax.set_title('Curve Plotter', fontsize=16)
     ax.set_xlabel("x", fontsize=12)
     ax.set_ylabel("y", fontsize=12)
 
