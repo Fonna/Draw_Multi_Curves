@@ -145,6 +145,9 @@ if (y1 is not None or y2 is not None) and error_message is None:
 
     # 添加网格
     ax.grid(True, linestyle='--', alpha=0.7)
+    # 默认绘制x轴和y轴
+    ax.axhline(y=0, color='k', linestyle='-', alpha=0.3)
+    ax.axvline(x=0, color='k', linestyle='-', alpha=0.3)
 
     # 在 Streamlit 中显示图形
     st.pyplot(fig)
